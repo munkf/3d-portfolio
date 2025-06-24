@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I’m Iman Firdaus Bin Izamuddin, a final-year Software Engineering (Hons.) student at UNITEN and a passionate full-stack developer. I build clean, responsive applications using JavaScript/TypeScript and PHP, with expertise in frameworks like Laravel, React, Next.js, Node.js, Tailwind CSS and Firebase. I’ve delivered projects ranging from a multi-branch car-rental booking system to an AI-powered LMS, and I’ve honed skills in data visualization (Tableau), project management (Microsoft Project) and networking (Cisco Packet Tracer). A quick learner and effective communicator, I collaborate closely with clients and teams to craft efficient, scalable, user-friendly solutions that solve real-world problems. Let’s team up to turn your ideas into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
