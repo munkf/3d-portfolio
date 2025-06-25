@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -47,7 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I’m Iman Firdaus Bin Izamuddin, a final-year Software Engineering (Hons.) student at UNITEN and a passionate full-stack developer. I build clean, responsive applications using JavaScript/TypeScript and PHP, with expertise in frameworks like Laravel, React, Next.js, Node.js, Tailwind CSS and Firebase. I’ve delivered projects ranging from a multi-branch car-rental booking system to an AI-powered LMS, and I’ve honed skills in data visualization (Tableau), project management (Microsoft Project) and networking (Cisco Packet Tracer). A quick learner and effective communicator, I collaborate closely with clients and teams to craft efficient, scalable, user-friendly solutions that solve real-world problems. Let’s team up to turn your ideas into reality!
+        
+I’m Iman Firdaus Bin Izamuddin, a final-year Software Engineering (Hons.) student at UNITEN and full-stack developer skilled in Laravel, React, Next.js, Node.js, Tailwind CSS, and Firebase. I’ve built everything from multi-branch car-rental booking systems to AI-powered learning platforms, and I’m proficient in Tableau, Microsoft Project, and Cisco Packet Tracer. As a quick learner and collaborative communicator, I deliver scalable, user-friendly solutions that solve real-world problems.
+
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
