@@ -8,21 +8,23 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
+  danish,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  firebase,
+  tuxuri,
+  rashdanlogo,
   shopify,
   carrent,
-  jobit,
-  tripguide,
+  padu,
   threejs,
+  learnify,
+  rashdan,
+  studyla,
+  tnb,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +56,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -80,10 +82,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -109,52 +108,57 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "firebase",
+    icon: firebase,
   },
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    title: "DevOps Intern",
+company_name: "Tuxuri Sdn. Bhd.",
+icon: tuxuri,
+iconBg: "#383E56",
+date: "July 2024 – September 2024",
+points: [
+  "Built interactive GIS web applications with MapLibre and OpenStreetMap baselayers, marking the Tuxuri office location with pop-up address displays.",
+  "Integrated PDF asset reports into Google Sheets and exported them to Excel for the MyAssets SIRIM system.",
+  "Installed DuckDB and wrote SQL queries against coordinate data to generate GeoJSON files for seamless map integration.",
+  "Overlaid Points-of-Interest from Overture Maps onto MapLibre as dynamic, interactive map layers.",
+  "Developed mobile-first, responsive web designs using HTML, CSS, and vanilla JavaScript to ensure cross-device compatibility.",
+  "Designed and prototyped a responsive weather widget in Figma for a TNB demo distribution project.",
+  "Automated web-scraping scripts to collect external data, enriching the geospatial mapping features."
+],
+
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full-Stack Developer",
+    company_name: "Rashdan Classic Sdn. Bhd.",
+    icon: rashdanlogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sept 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "Built a premium car-plate marketplace platform using Next.js (API routes) for backend and Tailwind CSS for frontend styling.",
+    "Integrated Firebase for authentication, Firestore data storage, and real-time updates to manage listings and transactions.",
+    "Designed responsive UI/UX mockups and prototypes in Figma, ensuring a consistent brand experience across devices.",
+    "Deployed and monitored the application on Vercel, optimizing build performance and routing for seamless user access.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "E-Commerce Developer",
+    company_name: "Padu Gears Trading",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "June 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Migrated the entire product database from Yezza into Shopify using CSV imports and Shopify’s Admin API.",
+    "Configured and connected a custom domain (DNS setup, SSL) to ensure a seamless branded experience.",
+    "Customized and extended a paid Shopify theme—tweaked Liquid templates, integrated Tailwind CSS utilities, and updated UI assets in Figma.",
+    "Set up core store functionality: created collections, configured shipping rates, tax rules, and integrated payment gateways (iPay88/Billplz) for secure checkout.",
     ],
   },
-  {
+  /* {
     title: "Full stack Developer",
     company_name: "Meta",
     icon: meta,
@@ -166,21 +170,21 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
-  },
+  }, */
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I thought it was impossible to make a website as beautiful as our product, but Iman proved me wrong.",
+    name: "Danish",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: danish,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Iman does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +192,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Iman optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,67 +202,154 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Learnify AI Platform",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "AI-enhanced learning management system that lets students upload course materials, get instant summaries, switch between models (ChatGPT, Gemini, Claude), and chat with an intelligent assistant.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: learnify,
+    source_code_link: "https://github.com/munkf/learnify-oasis",
+  },
+  {
+    name: "StudyLah",
+    description:
+      "Mobile productivity app for students—featuring a smart schedule planner, assignment tracker, Pomodoro clock, habit tracker, and daily motivational quotes to balance academics and life.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: studyla,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Rental Booking System",
+    description:
+      "Multi-branch car rental web app with wizard-style booking flow, real-time availability checks, and an admin dashboard featuring analytics and Chart.js visualizations.",
+    tags: [
+      {
+        name: "laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chartjs",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "TNB Demo Distribution Mapping",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Geo-visualization tool using MapLibre to display TNB assets (power stations, distribution points) with custom SVG spritesheets and interactive overlays, integrated with backend APIs.",
     tags: [
       {
-        name: "react",
+        name: "maplibre",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "gis",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
+      {
+        name: "inkscape",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
+    image: tnb,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "PaduGears E-Commerce",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Shopify storefront for gym apparel, accessories, and supplements, featuring full data migration from Yezza, custom domain setup, tailored Liquid template modifications, and Stripe/PayPal integration.",
     tags: [
+      {
+        name: "shopify",
+        color: "green-text-gradient",
+      },
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "html",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: padu,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Rashdan Classic",
+    description:
+      "Premium Malaysian car-plate marketplace built with Next.js & Tailwind CSS, using Firebase for auth & Firestore, and deployed on Vercel for fast, SEO-friendly performance.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "orange-text-gradient",
+      },
+       {
+        name: "vercel",
+        color: "red-text-gradient",
+      },
+    ],
+    image: rashdan,
+    source_code_link: "https://www.rashdanclassic.com/",
   },
 ];
 
