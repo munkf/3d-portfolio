@@ -232,7 +232,7 @@ const projects = [
       },
     ],
     image: learnify,
-    source_code_link: "https://github.com/munkf/learnify-oasis",
+    source_code_link: "https://learnify-fyp.vercel.app/",
   },
   {
     name: "StudyLah",
@@ -278,7 +278,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/munkf/IFFP",
   },
   {
     name: "TNB Demo Distribution Mapping",
